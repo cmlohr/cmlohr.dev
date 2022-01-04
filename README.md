@@ -1,2 +1,2 @@
 # cmlohr.dev
-My site
+Files for my personal website including assets.
