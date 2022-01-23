@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap');
+
 /* html reset */
 html,
 body,
@@ -400,9 +402,11 @@ abbr[title] {
 }
 .nav__list a.active {
   color: #9013fe;
+  font-weight: bold;
 }
 .nav__list a:hover {
   color: #9013fe;
+  font-weight: bold;
 }
 @media screen and (min-width: 800px) {
   .nav__list a {
@@ -553,7 +557,7 @@ footer {
 }
 .post__title {
   margin-top: 0;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.5em;
 }
 .post__title a {
@@ -616,29 +620,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.tag__btn {
-  background-color: #e3e6e8;
-  padding: 2pt;
-  margin: 2pt;
-  color: #141414;
-  border: solid 1pt #e3e6e8;
-  border-radius: 3pt;
-  cursor: pointer;
-}
-.tag__btn:hover {
-  background-color: #9013fe;
-  border-color: #9013fe;
-  color: #ffffff;
-}
-#tags__head {
-  padding: 10px;
-}
 
-.resume__btn {
-  font-size: 25px;
-  margin: auto;
-  display: flex;
-}
 
 #my__pic {
   height: 275px;
@@ -687,8 +669,74 @@ footer {
 font-weight: bold;
 color: #141414
 }
+
+
+
+/* Bot Lab Demo Styles */
+.Discord_CTA {
+  text-align: center;
+}
+
+.iframe_container {
+  margin: auto;
+  border: 0.8em solid #9b9b9b;
+  ;
+  background-color: #9b9b9b;
+  ;
+  height: 600px;
+  width: 100%;
+  border-radius: 3pt;
+}
+
+.fa-discord {
+  color: #7289DA;
+  font-size: 3em;
+}
+.fa-discord:hover {
+  animation: bounce 1s;
+}
+.CTA_icon {
+text-align: center;
+}
+.arrows {
+font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  color: #9013fe;
+}
+
+.code_info {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline #9013fe;
+}
+body {
+  color: #000000;
+}
+#repo {
+  text-align: center;
+  border-radius: 50%;
+  font-size: 60px;
+  color: #000000;
+  transition: 0.5s;
+}
+
+#repo:hover {
+  animation: bounce 1s;
+}
+
+.bot_lab_header{
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bot_lab_underscore {
+  color: #9013fe;
+}
 /* animation keyframes */
 @keyframes bounce {
+
   0%,
   60%,
   53%,
@@ -711,4 +759,61 @@ color: #141414
   90% {
     transform: translate3d(0, -2px, 0);
   }
+}
+
+.call-t0-action {
+font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+
+.call-t0-action-link {
+  color: #9013fe;
+  text-decoration: none;
+}
+.pdf_embed {
+  text-align: center;
+  height: 100vh;
+}
+
+.tag__btn {
+  background-color: #9013fe;
+
+  padding: 2pt;
+  margin: 2pt;
+  color: #ffffff;
+  border: solid 1pt #e3e6e8;
+  border-radius: 3pt;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tag__btn:hover {
+  background-color: #e3e6e8;
+  border-color: #9013fe;
+  color: #141414;
+  text-decoration: none;
+}
+
+#tags__head {
+  padding: 10px;
+}
+
+.resume__btn {
+  font-size: 25px;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+}
+
+.cv-link {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  font-size: 1.2em;
+}
+.cv-link:hover {
+  text-decoration: none !important;
+  color: #141414 !important;
+  font-size: 1.2em;
 }
